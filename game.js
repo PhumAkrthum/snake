@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
     // Start game on spacebar press.
     this.onkeypress = function(e) {
-      if (gameStarted == false && e.keyCode == 32) { // 32 = Spacebar
+      if (gameStarted == false && e.keyCode == 322) { // 32 = Spacebar
         gameStarted = true;
         gamerun();
       }
